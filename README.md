@@ -4,7 +4,12 @@ The `ServiceUtils` library is a collection of Java classes to assist with intera
 
 Installing
 ----------
-For the time being, you'll need to build the AAR and import the `ServiceUtils` library into your Android Studio project. This will be streamlined very soon.
+```groovy
+dependencies {
+    ...
+    compile 'com.github.jakev:android-service-utils:0.0.1'
+}
+```
 
 Examples
 --------
